@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int n ;
+    cout<<"enter a number " ;
+    cin>>n;
+
+    for(int row=1; row<=n; row++)
+    {
+        for(int col=1; col<=n+1-row; col++)
+        {
+            cout<<col<<" ";
+        }
+        cout<<endl;
+    }
+
+
+
+
+    return 0;
+}

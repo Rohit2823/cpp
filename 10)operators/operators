@@ -1,0 +1,6 @@
+arithmetic operators
+1) if all equal then go left to right
+3+5-2 = 8-2 = 6
+
+2) if not equal then go from high to low 
+3+5*2-1 = 3+10-1 = 
